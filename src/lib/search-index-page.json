@@ -1,0 +1,13 @@
+[
+  {
+    "id": "2",
+    "title": "Sample Page",
+    "slug": "sample-page",
+    "excerpt": "This is an example page. It&#8217;s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this: Hi there! I&#8217;m a bi...",
+    "type": "page",
+    "date": "2026-02-09T02:14:28",
+    "categories": [],
+    "tags": [],
+    "url": "/sample-page"
+  }
+]
