@@ -17,7 +17,7 @@ const discoveredPages = await getNavigationPages();
 
 // Build menu items: Home + discovered pages
 const menuItems = [
-    { id: 'home', type: 'home', label: 'Home', url: '/' },
+    { id: 'home', type: 'home', label: 'AI 渲染大师', url: '/' },
     ...discoveredPages.map(page => ({
         id: 'page_' + page.slug,
         type: 'page' as const,

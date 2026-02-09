@@ -430,7 +430,7 @@ export function getActiveClass(
  * </nav>
  * ```
  */
-export function getBreadcrumbs(pathname: string, homeLabel: string = 'Home'): BreadcrumbItem[] {
+export function getBreadcrumbs(pathname: string, homeLabel: string = 'AI 渲染大师'): BreadcrumbItem[] {
   const segments = pathname.split('/').filter(Boolean);
   const breadcrumbs: BreadcrumbItem[] = [
     { label: homeLabel, href: '/', current: segments.length === 0 }
