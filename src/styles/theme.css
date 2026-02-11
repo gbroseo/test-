@@ -13,15 +13,17 @@
  */
 
 @theme {
---color-primary: #6366f1;
-        --color-primary-dark: #4f46e5;
-        --color-primary-light: #818cf8;
-        --color-secondary: #8b5cf6;
-        --color-secondary-dark: #7c3aed;
-        --color-secondary-light: #a78bfa;
-        --color-accent: #06b6d4;
-        --color-accent-dark: #0891b2;
-        --color-accent-light: #22d3ee;
+--color-primary: #E8552D;       /* Logo 主色（橙红） */
+  --color-primary-dark: #C13D1A;  /* 深橙色，用于按钮悬停 */
+  --color-primary-light: #F18060; /* 浅橙色，用于淡色背景 */
+  
+  --color-secondary: #F97316;     /* 次要色（亮橘） */
+  --color-secondary-dark: #EA580C;
+  --color-secondary-light: #FB923C;
+
+  --color-accent: #FACC15;        /* 强调色（金色），与橙色很搭 */
+  --color-accent-dark: #EAB308;
+  --color-accent-light: #FDE047;
         --color-surface: #ffffff;
         --color-surface-alt: #f9fafb;
         --color-surface-hover: #f3f4f6;
