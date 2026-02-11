@@ -9,7 +9,13 @@
       "showHome": true,
       "mobileHamburger": true,
       "autoSync": true,
-      "excludedPages": []
+      "excludedPages": [
+        "/category",
+        "/tag",
+        "/sample-page",
+        "/author"
+      ],
+      "pageOrders": {}
     }
   ],
   "excludedPages": [],
